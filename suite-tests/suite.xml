@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" >
+
+	<listeners>
+		<listener class-name="com.api.playground.listener.Listener" />
+	</listeners>
+
+ 	<test name="product">
+		<classes>
+ 			<class name="com.api.playground.test.ProductTest" />
+		</classes>
+	</test>
+ 	<test name="service">
+		<classes>
+ 			<class name="com.api.playground.test.ServiceTest" />
+		</classes>
+	</test>
+	 	<test name="health">
+		<classes>
+    		 <class name="com.api.playground.test.HealthCheckTest" />
+		</classes>  
+	</test>
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="product(failed)">
+    <classes>
+      <class name="com.api.playground.test.ProductTest">
+        <methods>
+          <include name="sortByLowestPrice"/>
+          <include name="setURI"/>
+        </methods>
+      </class> <!-- com.api.playground.test.ProductTest -->
+    </classes>
+  </test> <!-- product(failed) -->
+</suite> <!-- Failed suite [Suite] -->

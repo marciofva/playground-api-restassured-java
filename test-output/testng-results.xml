@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="19" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16342" started-at="2019-12-01T21:28:36Z" finished-at="2019-12-01T21:28:53Z">
+    <groups>
+    </groups>
+    <test name="product" duration-ms="6151" started-at="2019-12-01T21:28:36Z" finished-at="2019-12-01T21:28:42Z">
+      <class name="com.api.playground.test.ProductTest">
+        <test-method status="PASS" signature="setURI()[pri:0, instance:com.api.playground.test.ProductTest@59ec2012]" name="setURI" is-config="true" duration-ms="664" started-at="2019-12-01T21:28:36Z" finished-at="2019-12-01T21:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURI -->
+        <test-method status="PASS" signature="findByType(java.lang.String)[pri:0, instance:com.api.playground.test.ProductTest@59ec2012]" name="findByType" duration-ms="2835" started-at="2019-12-01T21:28:37Z" data-provider="findByType" finished-at="2019-12-01T21:28:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HardGood]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findByType -->
+        <test-method status="PASS" signature="findProductById(java.lang.String)[pri:0, instance:com.api.playground.test.ProductTest@59ec2012]" name="findProductById" duration-ms="100" started-at="2019-12-01T21:28:40Z" data-provider="findById" finished-at="2019-12-01T21:28:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[43900]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findProductById -->
+        <test-method status="PASS" signature="findProductById(java.lang.String)[pri:0, instance:com.api.playground.test.ProductTest@59ec2012]" name="findProductById" duration-ms="98" started-at="2019-12-01T21:28:40Z" data-provider="findById" finished-at="2019-12-01T21:28:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[150115]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findProductById -->
+        <test-method status="PASS" signature="getAllProductsLimitTo1(java.lang.String)[pri:0, instance:com.api.playground.test.ProductTest@59ec2012]" name="getAllProductsLimitTo1" duration-ms="283" started-at="2019-12-01T21:28:40Z" data-provider="limit" finished-at="2019-12-01T21:28:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllProductsLimitTo1 -->
+        <test-method status="PASS" signature="getAllProductsLimitTo1(java.lang.String)[pri:0, instance:com.api.playground.test.ProductTest@59ec2012]" name="getAllProductsLimitTo1" duration-ms="269" started-at="2019-12-01T21:28:40Z" data-provider="limit" finished-at="2019-12-01T21:28:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllProductsLimitTo1 -->
+        <test-method status="PASS" signature="getAllProductsWithSkip(java.lang.String)[pri:0, instance:com.api.playground.test.ProductTest@59ec2012]" name="getAllProductsWithSkip" duration-ms="242" started-at="2019-12-01T21:28:40Z" data-provider="skip" finished-at="2019-12-01T21:28:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllProductsWithSkip -->
+        <test-method status="PASS" signature="getAllProductsWithSkip(java.lang.String)[pri:0, instance:com.api.playground.test.ProductTest@59ec2012]" name="getAllProductsWithSkip" duration-ms="245" started-at="2019-12-01T21:28:41Z" data-provider="skip" finished-at="2019-12-01T21:28:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllProductsWithSkip -->
+        <test-method status="PASS" signature="getProductWithDifferentType(java.lang.String, java.lang.String)[pri:0, instance:com.api.playground.test.ProductTest@59ec2012]" name="getProductWithDifferentType" duration-ms="138" started-at="2019-12-01T21:28:41Z" data-provider="differentType" finished-at="2019-12-01T21:28:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HardGood]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Software]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductWithDifferentType -->
+        <test-method status="PASS" signature="getProductWithPriceLessOrEqual(java.lang.String)[pri:0, instance:com.api.playground.test.ProductTest@59ec2012]" name="getProductWithPriceLessOrEqual" duration-ms="86" started-at="2019-12-01T21:28:41Z" data-provider="price" finished-at="2019-12-01T21:28:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductWithPriceLessOrEqual -->
+        <test-method status="PASS" signature="getProductWithShippingPriceGreaterThan(java.lang.String)[pri:0, instance:com.api.playground.test.ProductTest@59ec2012]" name="getProductWithShippingPriceGreaterThan" duration-ms="93" started-at="2019-12-01T21:28:41Z" data-provider="shipping" finished-at="2019-12-01T21:28:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductWithShippingPriceGreaterThan -->
+        <test-method status="PASS" signature="getProductsPassingTwoPrices(java.lang.String, java.lang.String)[pri:0, instance:com.api.playground.test.ProductTest@59ec2012]" name="getProductsPassingTwoPrices" duration-ms="84" started-at="2019-12-01T21:28:41Z" data-provider="TwoPrices" finished-at="2019-12-01T21:28:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductsPassingTwoPrices -->
+        <test-method status="PASS" signature="returnAllProducts()[pri:0, instance:com.api.playground.test.ProductTest@59ec2012]" name="returnAllProducts" duration-ms="259" started-at="2019-12-01T21:28:41Z" finished-at="2019-12-01T21:28:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnAllProducts -->
+        <test-method status="PASS" signature="showOnlyNameAndPrice()[pri:0, instance:com.api.playground.test.ProductTest@59ec2012]" name="showOnlyNameAndPrice" duration-ms="153" started-at="2019-12-01T21:28:42Z" finished-at="2019-12-01T21:28:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showOnlyNameAndPrice -->
+        <test-method status="PASS" signature="sortByHighestPrice()[pri:0, instance:com.api.playground.test.ProductTest@59ec2012]" name="sortByHighestPrice" duration-ms="261" started-at="2019-12-01T21:28:42Z" finished-at="2019-12-01T21:28:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByHighestPrice -->
+        <test-method status="PASS" signature="sortByLowestPrice()[pri:0, instance:com.api.playground.test.ProductTest@59ec2012]" name="sortByLowestPrice" duration-ms="225" started-at="2019-12-01T21:28:42Z" finished-at="2019-12-01T21:28:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByLowestPrice -->
+      </class> <!-- com.api.playground.test.ProductTest -->
+    </test> <!-- product -->
+    <test name="service" duration-ms="112" started-at="2019-12-01T21:28:47Z" finished-at="2019-12-01T21:28:47Z">
+      <class name="com.api.playground.test.ServiceTest">
+        <test-method status="PASS" signature="setURI()[pri:0, instance:com.api.playground.test.ServiceTest@64bfbc86]" name="setURI" is-config="true" duration-ms="0" started-at="2019-12-01T21:28:47Z" finished-at="2019-12-01T21:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURI -->
+        <test-method status="PASS" signature="findServices(java.lang.String)[pri:0, instance:com.api.playground.test.ServiceTest@64bfbc86]" name="findServices" duration-ms="40" started-at="2019-12-01T21:28:47Z" data-provider="findById" finished-at="2019-12-01T21:28:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findServices -->
+        <test-method status="PASS" signature="findServices(java.lang.String)[pri:0, instance:com.api.playground.test.ServiceTest@64bfbc86]" name="findServices" duration-ms="31" started-at="2019-12-01T21:28:47Z" data-provider="findById" finished-at="2019-12-01T21:28:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findServices -->
+        <test-method status="PASS" signature="returnAllServices()[pri:0, instance:com.api.playground.test.ServiceTest@64bfbc86]" name="returnAllServices" duration-ms="31" started-at="2019-12-01T21:28:47Z" finished-at="2019-12-01T21:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnAllServices -->
+      </class> <!-- com.api.playground.test.ServiceTest -->
+    </test> <!-- service -->
+    <test name="health" duration-ms="42" started-at="2019-12-01T21:28:52Z" finished-at="2019-12-01T21:28:53Z">
+      <class name="com.api.playground.test.HealthCheckTest">
+        <test-method status="PASS" signature="setURI()[pri:0, instance:com.api.playground.test.HealthCheckTest@617faa95]" name="setURI" is-config="true" duration-ms="1" started-at="2019-12-01T21:28:52Z" finished-at="2019-12-01T21:28:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURI -->
+        <test-method status="PASS" signature="healthCheckAuth()[pri:0, instance:com.api.playground.test.HealthCheckTest@617faa95]" name="healthCheckAuth" duration-ms="38" started-at="2019-12-01T21:28:52Z" finished-at="2019-12-01T21:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- healthCheckAuth -->
+      </class> <!-- com.api.playground.test.HealthCheckTest -->
+    </test> <!-- health -->
+  </suite> <!-- Suite -->
+</testng-results>

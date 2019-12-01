@@ -1,0 +1,112 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "http://example.com/root.json",
+	"type": "object",
+	"title": "The Root Schema",
+	"required": [
+		"total",
+		"limit",
+		"skip",
+		"data"
+	],
+	"properties": {
+		"total": {
+			"type": "integer"
+		},
+		"limit": {
+			"type": "integer"
+		},
+		"skip": {
+			"type": "integer"
+		},
+		"data": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": [
+					"id",
+					"name",
+					"type",
+					"price",
+					"upc",
+					"shipping",
+					"description",
+					"manufacturer",
+					"model",
+					"url",
+					"image",
+					"createdAt",
+					"updatedAt",
+					"categories"
+				],
+				"properties": {
+					"id": {
+						"type": "integer"
+					},
+					"name": {
+						"type": "string"
+					},
+					"type": {
+						"type": "string"
+					},
+					"price": {
+						"type": "number"
+					},
+					"upc": {
+						"type": "string"
+					},
+					"shipping": {
+						"type": "integer"
+					},
+					"description": {
+						"type": "string"
+					},
+					"manufacturer": {
+						"type": "string"
+					},
+					"model": {
+						"type": "string"
+					},
+					"url": {
+						"type": "string"
+					},
+					"image": {
+						"type": "string"
+					},
+					"createdAt": {
+						"type": "string"
+					},
+					"updatedAt": {
+						"type": "string"
+					},
+					"categories": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"required": [
+								"id",
+								"name",
+								"createdAt",
+								"updatedAt"
+							],
+							"properties": {
+								"id": {
+									"type": "string"
+								},
+								"name": {
+									"type": "string"
+								},
+								"createdAt": {
+									"type": "string"
+								},
+								"updatedAt": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
